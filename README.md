@@ -1,2 +1,1 @@
 # ny-hotel
-test project
