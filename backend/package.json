@@ -4,7 +4,7 @@
   "description": "pet project",
   "main": "dist/server.js",
   "scripts": {
-    "build": "npm install -g npx && npm install -g && npx tsc",
+    "build": "npm install && npx tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
