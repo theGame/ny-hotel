@@ -1,0 +1,21 @@
+{
+  "name": "ny-hotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./backend/dist/server.js",
+  "scripts": {
+    "build:backend": "cd backend && npm run build",
+    "start:backend": "cd backend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theGame/ny-hotel.git"
+  },
+  "author": "theGame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theGame/ny-hotel/issues"
+  },
+  "homepage": "https://github.com/theGame/ny-hotel#readme"
+}
