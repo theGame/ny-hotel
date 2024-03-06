@@ -14,7 +14,7 @@ app.get("/api", (req, res) => {
 });
 
 app.get("/", (req: Request, res: Response) => {
-    res.send("Express + TypeScript Server");
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.listen(port, () => {
