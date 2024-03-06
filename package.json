@@ -4,7 +4,9 @@
   "description": "",
   "main": "./backend/dist/server.js",
   "scripts": {
+    "build": "npm run build:frontend && npm run build:backend",
     "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
     "start:backend": "cd backend && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
